@@ -1,0 +1,47 @@
+/* BLOCKS */
+.block.available{
+    fill: #ffffff !important;
+    fill-opacity: 0 !important;
+    stroke: #fff !important;
+    stroke-opacity: 0 !important;
+}
+.block.available:hover{
+    fill-opacity: 0.5 !important;
+}
+#blockmap-mini.block.available:hover{
+    fill: #ffffff !important;
+    fill-opacity: 0 !important;
+    stroke: #fff !important;
+    stroke-opacity: 0 !important;
+}
+.block.unavailable{
+    fill: #232323 !important;
+    fill-opacity: 0.6 !important;
+    stroke: #000000 !important;
+    stroke-opacity: 1 !important;
+}
+.block.selected{
+    fill: #006afe !important;
+    fill-opacity: 1 !important;
+    stroke: #ffffff !important;
+    stroke-opacity: 1 !important;
+}
+#sub-interface{
+    text-align: center;
+    padding: 0;
+    background: #ebebeb;
+    overflow: auto;
+}
+#main-interface{
+    padding: 0;
+}
+.integration{
+    padding: 0;
+    margin: 0 20px;
+    background: #ebebeb;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.selectionCard{
+    padding: 15px;
+    margin: 10px;
+}

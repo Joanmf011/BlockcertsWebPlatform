@@ -1,0 +1,207 @@
+/*************/
+/* CAMPAIGNS */
+/*************/
+
+/* ADD */
+
+.addcampaign-container{
+    text-align: center;
+    margin-top: 60px;
+}
+.addcampaign-text{
+    font-size: 14pt;
+    color: #acacac;
+    margin-bottom: 75px;
+}
+.addcampaign-btncontainer{
+    width: 400px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 50px;
+}
+.addcampaign-btncontainer-title{
+    font-weight: bold;
+    font-size: 13pt;
+    margin-top: 20px;
+}
+.addcampaign-btncontainer-subtitle{
+    font-size: 8pt;
+    margin: 0 auto;
+}
+.addcampaign-btncontainer-texts{
+    color: #fff;
+    font-size: 9pt;
+    margin-bottom: 30px;
+}
+
+/* CREATE */
+
+.create-option{
+    padding: 0;
+    margin-top: 20px;
+    width: 100%;
+    max-height: 70px;
+    text-align: left;
+    transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+}
+.create-option.open{
+    background: #fff;
+    max-height: 1000px;
+    transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+}
+.create-option-toggle{
+    border: none;
+    width: 100%;
+    text-align: left;
+    box-shadow: none;
+    transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+}
+.create-option-toggle.open{
+    background: #fff;
+    color: #c8102e;
+    transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+}
+.create-text{
+    color: #535353;
+    font-size: 11pt;
+}
+.option-icon{
+    font-size: 21pt;
+    content: "\e633";
+    margin-right: 17px;
+    vertical-align: middle;
+}
+.option-text{
+    font-size: 13pt;
+    vertical-align: middle;
+}
+.toggleicon{
+    color: #fff;
+    font-size: 15pt;
+    float: right;
+    margin-top: 5px;
+    transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+}
+.toggleicon.open{
+    color: #c8102e;
+    -moz-transform: scale(1, -1);
+    -webkit-transform: scale(1, -1);
+    -o-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1);
+    transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+}
+.choose-media-container{
+    padding: 25px;
+    color: #fff;
+    opacity: 0;
+    transition: .2s ease-in-out;
+    -moz-transition: .2s ease-in-out;
+    -webkit-transition: .2s ease-in-out;
+}
+.choose-media-container.open{
+    opacity: 1;
+    transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+}
+.choose-image{
+    max-height: 100px;
+    max-width: 400px;
+    margin-left: 20px;
+}
+.image-option{
+    margin: 20px;
+}
+.blue-title{
+    color: #c8102e;
+    margin-bottom: 20px;
+}
+.date-selector{
+    padding: 0 20px;
+}
+.pad-container{
+    padding: 0px 20px 0px 20px;
+}
+
+/* PICKER */
+
+.thumbnail{
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 290px;
+    height: 200px;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+    transition: .2s ease-in-out;
+    -moz-transition: .2s ease-in-out;
+    -webkit-transition: .2s ease-in-out;
+}
+.image_picker_image{
+    background: #fff;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.thumbnails.image_picker_selector{
+    padding-bottom: 25px;
+}
+
+/* LIST */
+
+.list-title{
+    font-size: 18pt;
+}
+.list-item{
+    margin: 15px 0;
+}
+.list-item-name{
+    color: #acacac;
+}
+
+/***********/
+/* CONTENT */
+/***********/
+
+.content-container{
+    margin: 0 auto;
+}
+.content-mainblock{
+    padding: 0;
+    overflow-x: auto;
+    color: #535353;
+}
+.content-mainblock-top{
+    padding: 20px;
+}
+.content-subtitle{
+    font-size: 10pt;
+    margin-top: 15px;
+    float: right;
+    color: #acacac;
+}
+.content-title{
+    font-size: 22pt;
+    color: #636363;
+}
+.content-titles-row{
+    margin-top: 14px;
+    margin-bottom: 14px;
+    margin-left: 0px;
+    width: 100%;
+}
