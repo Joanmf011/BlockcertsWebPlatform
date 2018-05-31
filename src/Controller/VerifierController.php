@@ -41,6 +41,19 @@ class VerifierController extends AppController
 
     public function index(){
 
-    }    
+    }
+
+    public function verify(){
+         if($this->request->is("post")){
+
+            $json = $this->request->data["json"];
+
+           $filename = "cert-web-component/JSON/verify.json"; 
+           move_uploaded_file($this->request->data['json']['tmp_name'],$filename);
+
+        }else{
+            $this->redirect(["controller"=>"Verifier","action"=>"index"]);
+        }
+    }
 
 }

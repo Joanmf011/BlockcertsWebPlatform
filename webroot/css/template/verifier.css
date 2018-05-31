@@ -16,6 +16,16 @@ header{
     margin-bottom:25px;
 }
 
+.certificate-container{
+	width: 100%;
+	margin-top: 50px;
+}
+
+.blockchain-certificate{
+	max-width: 800px;
+	margin: 0 auto;
+}
+
 #header-logo{
 	height:58px;
 }

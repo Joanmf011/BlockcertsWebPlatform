@@ -12,7 +12,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="assets/fontawesome/css/font-awesome.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
@@ -32,11 +31,10 @@
 		<div class='container'>
 			<div class='main-title'>
 				<h2>UPLOAD YOUR FILE HERE</h2>
-				<form class='form-inline' method='post' action="" enctype="multipart/form-data">
+				<form class='form-inline' method='post' action="/Verifier/verify" enctype="multipart/form-data">
 				<div style='margin:0 auto; width:auto'>
 				  <div class="form-group mx-sm-3 mb-2">
-				    <label for="inputPassword2" class="sr-only">Password</label>
-				    <input type="file" class="form-control" id="inputPassword2" placeholder="Password">
+				    <input type="file" class="form-control" name="json" placeholder="JSON File">
 				  </div>
 				  <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
 				</div>
