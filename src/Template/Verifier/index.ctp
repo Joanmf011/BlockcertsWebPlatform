@@ -36,7 +36,7 @@
 				  <div class="form-group mx-sm-3 mb-2">
 				    <input type="file" class="form-control" name="json" placeholder="JSON File">
 				  </div>
-				  <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+				  <button type="submit" class="btn btn-primary mb-2">Validate Certificate</button>
 				</div>
 				</form>
 			</div>
