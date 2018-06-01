@@ -39,8 +39,9 @@ class VerifierController extends AppController
      *   be found or \Cake\View\Exception\MissingTemplateException in debug mode.
      */
 
-    public function index(){
 
+    public function index(){
+        $this->viewBuilder()->setLayout("verify");
     }
 
     public function verify(){

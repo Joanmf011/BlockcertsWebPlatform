@@ -1,4 +1,5 @@
 <!doctype html>
+ <?= $this->Html->css(['template/verifier.css']) ?>
 <html>
   <head>
     <title>blockchain-certificate demo</title>

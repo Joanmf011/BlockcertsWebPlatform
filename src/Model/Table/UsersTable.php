@@ -29,7 +29,7 @@ class UsersTable extends AppTable
     public function initialize(array $config){
         $this->addBehavior('Timestamp');
 
-        $string = file_get_contents(APP."/Model/JSON/users.json");
+        $string = file_get_contents(APP."Model/JSON/users.json");
         $json_a = json_decode($string, true);
 
         $RolesModel = new RolesTable();

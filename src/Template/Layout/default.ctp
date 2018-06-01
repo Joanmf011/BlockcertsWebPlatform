@@ -36,7 +36,7 @@ $closedMenu = 'closed';
     </title>
     <?= $this->Html->meta('icon') ?>
 
-    <?= $this->Html->css(['bootstrap.min.css', 'themify-icons.css', 'template/layout.css', 'template/verifier.css']) ?>
+    <?= $this->Html->css(['bootstrap.min.css', 'themify-icons.css', 'template/layout.css']) ?>
     <?= $this->Html->script(['jquery-3.3.1.min.js', 'bootstrap.min.js', 'template/menu.js']) ?>
 
     <?= $this->fetch('meta') ?>
@@ -46,6 +46,14 @@ $closedMenu = 'closed';
 </head>
 <body>
     <?= $this->Flash->render() ?>
-    <?= $this->fetch('content') ?>
+    <header class="main-header">
+        <?=$this->element('topnav')?>
+    </header>
+    <main class="main-content">
+        <?=$this->element('sidenav',["closedMenu"=>$closedMenu, "active"=>$active])?>
+        <div class="container <?=$closedMenu?> clearfix">
+            <?= $this->fetch('content') ?>
+        </div>
+    </main>
 </body>
 </html>

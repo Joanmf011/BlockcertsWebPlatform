@@ -98,7 +98,7 @@ class UsersController extends AppController
 
             if($valid_data){
                 if($this->Users->login($post)){
-                    $this->redirect(["controller"=>"Campaigns","action"=>"index"]);
+                    $this->redirect(["controller"=>"Certificates","action"=>"index"]);
                 }            
             }
             
