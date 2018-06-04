@@ -39,6 +39,9 @@ class CertificatesController extends AppController
      *   be found or \Cake\View\Exception\MissingTemplateException in debug mode.
      */
 
+    public function create(){
+        
+    }
 
     public function createCertificate(){
         $result = false;

@@ -41,5 +41,5 @@ nbproject/*
 
 # JSON #
 ########
-# /webroot/data/*
-# /src/Model/JSON/*
+/webroot/data/*
+/src/Model/JSON/*
