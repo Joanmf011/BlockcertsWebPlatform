@@ -69,22 +69,22 @@ button:focus{
 /* BUTTONS */
 /***********/
 
-.blue-button{
+.red-button{
   border-radius: 50px;
   color: #fff;
   background: #c8102e;
   border: none;
   padding: 9px 20px;
 }
-.blue-button:hover{
+.red-button:hover{
   color: #fff;
-  background: #0158d1;
+  background: #8e081e;
 }
-.blue-button:focus{
+.red-button:focus{
   background: #c8102e;
   color: #fff;
 }
-.blue-button.disabled:hover{
+.red-button.disabled:hover{
   background: #c8102e;
 }
 .superblue-button{

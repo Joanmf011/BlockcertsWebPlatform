@@ -2,10 +2,6 @@
 <?= $this->Html->script(['template/content.js']) ?>
 <div class="content-container">
 	<?php
-		if($campaign_config['type'] == "none"){
-			echo $this->element('Campaigns/add');
-		}else{
-			echo $this->element('Campaigns/list');
-		}
+		echo $this->element('Certificates/list');
 	?>
 </div>

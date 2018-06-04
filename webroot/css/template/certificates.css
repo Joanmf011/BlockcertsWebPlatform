@@ -1,0 +1,25 @@
+.certificates-list{
+	position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 30%;
+    margin: 0;
+}
+
+.add-button{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 15px;
+    font-size: 17pt;
+}
+
+.user-badge{
+	margin-right: 0;
+	padding: 10px 35px;
+	text-align: right;
+}
+.user-icon{
+	height: 48px;
+}

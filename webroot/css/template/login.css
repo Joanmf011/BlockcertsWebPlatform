@@ -23,6 +23,10 @@
   border: none;
   margin-top: 10px;
 }
+.login-button:hover{
+  color: #fff;
+  background: #8e081e;
+}
 .login-input{
   margin-bottom: 20px;
   border-radius: 50px;
