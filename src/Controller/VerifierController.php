@@ -45,6 +45,7 @@ class VerifierController extends AppController
     }
 
     public function verify(){
+        $this->viewBuilder()->setLayout("verify");
          if($this->request->is("post")){
 
             $json = $this->request->data["json"];
